@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <style>
+      *{
+        margin: 0; padding: 0; font-family: 'Josefin Sans', sans-serif;
+      }
+    /* Make the image fully responsive */
+    .carousel-inner img {
+      width: 100%;
+      height: 100%;
+    }
+  </style>
+</head>
+<body>
+  <script type="text/javascript">
+    $('#modal1').on('hidden.bs.modal', function (e) {
+  // do something...
+  $('#modal1 iframe').attr("src", $("#modal1 iframe").attr("src"));
+});
+
+$('#modal2').on('hidden.bs.modal', function (e) {
+  // do something...
+  $('#modal2 iframe').attr("src", $("#modal2 iframe").attr("src"));
+});
+
+$('#modal3').on('hidden.bs.modal', function (e) {
+  // do something...
+  $('#modal3 iframe').attr("src", $("#modal3 iframe").attr("src"));
+});
+
+$('#modal4').on('hidden.bs.modal', function (e) {
+  // do something...
+  $('#modal4 iframe').attr("src", $("#modal4 iframe").attr("src"));
+});
+
+    $('#modal5').on('hidden.bs.modal', function (e) {
+  // do something...
+  $('#modal5 iframe').attr("src", $("#modal5 iframe").attr("src"));
+});
+
+$('#modal6').on('hidden.bs.modal', function (e) {
+  // do something...
+  $('#modal6 iframe').attr("src", $("#modal6 iframe").attr("src"));
+});
+
+$('#modal7').on('hidden.bs.modal', function (e) {
+  // do something...
+  $('#modal7 iframe').attr("src", $("#modal7 iframe").attr("src"));
+});
+
+$('#modal8').on('hidden.bs.modal', function (e) {
+  // do something...
+  $('#modal8 iframe').attr("src", $("#modal8 iframe").attr("src"));
+});
+
+$('#modal9').on('hidden.bs.modal', function (e) {
+  // do something...
+  $('#modal9 iframe').attr("src", $("#modal9 iframe").attr("src"));
+});
+
+  </script>
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">Rohit Singh</a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="drawing.html">Drawings</a>
+      </li>
+      <li class="nav-item dropdown">
+      <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+        Games
+      </a>
+      <div class="dropdown-menu">
+        <a class="dropdown-item" href="flappy.html">Flappy Bird</a>
+        <a class="dropdown-item" href="ball_roll.html">Ball Roll</a>
+      </div>
+    </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+</header>
+
+<div class="container bg-light">
+
+  <h1 class="font-weight-light text-dark text-center mt-4 mb-0">Blender Animations</h1>
+
+  <hr class="mt-2 mb-5">
+
+</div>
+
+<!-- Grid row -->
+<div class="row py-5">
+
+  <!-- Grid column 1 Start -->
+  <div class="col-lg-4 col-md-12 mb-4 px-3">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe class="embed-responsive-item" src="Vids/collision.mp4"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">Planet Collision</span>
+            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+            <!--Linkedin-->
+            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="vid_thumbnails/collision.jpg" alt="video"
+        data-toggle="modal" data-target="#modal1"></a>
+
+    <h4 class="text-dark text-center py-3">Planet Collisions</h4>
+
+  </div>
+  <!-- Grid column 1 End -->
+
+  <!-- Grid column 2 Start -->
+  <div class="col-lg-4 col-md-6 mb-4 px-3">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe class="embed-responsive-item" src="Vids/gatlin.mp4"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">Gatlin Gun</span>
+            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+            <!--Linkedin-->
+            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="vid_thumbnails/gatlin.jpg" alt="video"
+        data-toggle="modal" data-target="#modal2"></a>
+
+    <h4 class="text-dark text-center py-3">Gatlin Gun</h4>
+
+  </div>
+  <!-- Grid column 2 End -->
+
+  <!-- Grid column 3 Start -->
+  <div class="col-lg-4 col-md-6 mb-4 px-3">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe class="embed-responsive-item" src="Vids/ocean.mp4"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">Ocean View</span>
+            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+            <!--Linkedin-->
+            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="vid_thumbnails/ocean.jpg" alt="video"
+        data-toggle="modal" data-target="#modal3"></a>
+
+    <h4 class="text-dark text-center py-3">Ocean View</h4>
+
+  </div>
+  <!-- Grid column 3 End -->
+
+  <!-- Grid column 4 Start -->
+  <div class="col-lg-4 col-md-12 mb-4 px-3">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe class="embed-responsive-item" src="Vids/ocean_Sun.mp4"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">Sun set over ocean</span>
+            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+            <!--Linkedin-->
+            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="vid_thumbnails/ocean_Sun.jpg" alt="video"
+        data-toggle="modal" data-target="#modal4"></a>
+
+    <h4 class="text-dark text-center py-3">Sun set over Ocean</h4>
+
+  </div>
+  <!-- Grid column 4 End -->
+
+    <!-- Grid column 5 Start -->
+  <div class="col-lg-4 col-md-12 mb-4 px-3">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal5" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe class="embed-responsive-item" src="Vids/orange.mp4"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">Orange with knife</span>
+            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+            <!--Linkedin-->
+            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="vid_thumbnails/orange.jpg" alt="video"
+        data-toggle="modal" data-target="#modal5"></a>
+
+    <h4 class="text-dark text-center py-3">Orange Cut</h4>
+
+  </div>
+  <!-- Grid column 5 End -->
+
+
+  <!-- Grid column 6 Start -->
+  <div class="col-lg-4 col-md-12 mb-4 px-3">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal6" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe class="embed-responsive-item" src="Vids/Particle.mp4"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">UFO particle</span>
+            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+            <!--Linkedin-->
+            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="vid_thumbnails/Particle.jpg" alt="video"
+        data-toggle="modal" data-target="#modal6"></a>
+
+    <h4 class="text-dark text-center py-3">UFO Particle</h4>
+
+  </div>
+  <!-- Grid column 6 End -->
+
+
+    <!-- Grid column 7 Start -->
+  <div class="col-lg-4 col-md-12 mb-4 px-3">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal7" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe class="embed-responsive-item" src="Vids/splash.mp4"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">Water Splash</span>
+            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+            <!--Linkedin-->
+            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="vid_thumbnails/splash.jpg" alt="video"
+        data-toggle="modal" data-target="#modal7"></a>
+
+    <h4 class="text-dark text-center py-3">Water Splash</h4>
+
+  </div>
+  <!-- Grid column 7 End -->
+
+    <!-- Grid column 8 Start -->
+  <div class="col-lg-4 col-md-12 mb-4 px-3">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal8" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe class="embed-responsive-item" src="Vids/upsidedown.mp4"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">Up Side Down World</span>
+            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+            <!--Linkedin-->
+            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="vid_thumbnails/upsidedown.jpg" alt="video"
+        data-toggle="modal" data-target="#modal8"></a>
+
+    <h4 class="text-dark text-center py-3">Upside Down World</h4>
+
+  </div>
+  <!-- Grid column 8 End -->
+
+  <!-- Grid column 9 Start -->
+  <div class="col-lg-4 col-md-12 mb-4 px-3">
+
+    <!--Modal: Name-->
+    <div class="modal fade" id="modal9" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+
+        <!--Content-->
+        <div class="modal-content">
+
+          <!--Body-->
+          <div class="modal-body mb-0 p-0">
+
+            <div class="embed-responsive embed-responsive-16by9 z-depth-1-half">
+              <iframe class="embed-responsive-item" src="Vids/well.mp4"
+                allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <!--Footer-->
+          <div class="modal-footer justify-content-center">
+            <span class="mr-4">Well asset for games</span>
+            <a type="button" class="btn-floating btn-sm btn-fb"><i class="fab fa-facebook-f"></i></a>
+            <!--Twitter-->
+            <a type="button" class="btn-floating btn-sm btn-tw"><i class="fab fa-twitter"></i></a>
+            <!--Google +-->
+            <a type="button" class="btn-floating btn-sm btn-gplus"><i class="fab fa-google-plus-g"></i></a>
+            <!--Linkedin-->
+            <a type="button" class="btn-floating btn-sm btn-ins"><i class="fab fa-linkedin-in"></i></a>
+
+            <button type="button" class="btn btn-outline-primary btn-rounded btn-md ml-4" data-dismiss="modal">Close</button>
+
+          </div>
+
+        </div>
+        <!--/.Content-->
+
+      </div>
+    </div>
+    <!--Modal: Name-->
+
+    <a><img class="img-fluid z-depth-1" src="vid_thumbnails/well.jpg" alt="video"
+        data-toggle="modal" data-target="#modal9"></a>
+
+    <h4 class="text-dark text-center py-3">Well game asset</h4>
+
+  </div>
+  <!-- Grid column 9 End -->
+
+
+</div>
+<!-- Grid row -->
+<footer class="py-5">
+  
+  <p class="text-center bg-dark text-light"> @copyright singh.rohit3094@gmail.com </p>
+
+</footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+</body>
+</body>
+</html>
